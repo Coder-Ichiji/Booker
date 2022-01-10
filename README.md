@@ -1,13 +1,13 @@
 # Booker
 Booker - Quick Access Software
 
-##Introduction of The Idea
+## Introduction of The Idea
 
 As definitions from Oxford, Booker is a person employed to engage performers for a theatre or similar. The Idea of this program is comes generate window that shows quick access of launching other program and will exit directlly.
 
 The program easy to config, you just to put the name of program for showing in button and put the command to execute the program. 
 
-##Before Installation
+## Before Installation
 
 To take full advantage of Booker, you must follow the steps below:
 
@@ -43,7 +43,7 @@ static char call_first_program[] = "vlc";
 
 You couldn't compile the installation without without *gtk3-devel*. You must install it for install. 
 
-##Installation
+## Installation
 
 **1) Git The Repository**
 
@@ -74,6 +74,6 @@ sudo make install
 sudo make uninstall
 ```
 
-###License
+### License
 [GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
