@@ -1,3 +1,11 @@
+/* Author: Mohammed Khalid Alnahdi
+ * Email: mohammed-alnahdi@protonmail.com
+ * Copyright:
+ * booker version 1.0.0, Copyright (C) 2022 Mohammed Alnahdi
+ * comes with ABSOLITELY NO WARRANTY.
+ * This is free software, and you are welcome to redistribute
+ * it under certain conditions;
+ */
 #include<stdio.h>
 #include<gtk/gtk.h>
 #include"config.h"
@@ -91,13 +99,9 @@ int main(int argc, char *argv[])
 	  GtkWidget *fixed;
 
   gtk_init(&argc, &argv);
-/*make window */
   window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
-  /*give name to the window*/
   gtk_window_set_title(GTK_WINDOW(window), "Booker");
-  /*make size of window*/
   gtk_window_set_default_size(GTK_WINDOW(window), 300,100);
-  /*open the window in the meddal*/
   gtk_window_set_position(GTK_WINDOW(window), GTK_WIN_POS_CENTER);
 
   fixed = gtk_fixed_new();
